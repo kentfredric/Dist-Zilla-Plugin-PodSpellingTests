@@ -6,7 +6,6 @@ package Dist::Zilla::Plugin::PodSpellingTests;
 # ABSTRACT: release tests for POD spelling
 use Moose;
 use Pod::Wordlist::hanekomu;
-use Test::Spelling;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 
 __PACKAGE__->meta->make_immutable;
