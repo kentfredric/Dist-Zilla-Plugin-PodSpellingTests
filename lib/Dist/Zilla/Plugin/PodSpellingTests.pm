@@ -3,7 +3,7 @@ use strict;
 use warnings;
 
 package Dist::Zilla::Plugin::PodSpellingTests;
-# ABSTRACT: release tests for POD spelling
+# ABSTRACT: Release tests for POD spelling
 use Moose;
 use Pod::Wordlist::hanekomu;
 extends 'Dist::Zilla::Plugin::InlineFiles';
@@ -27,7 +27,7 @@ In C<dist.ini>:
 =head1 DESCRIPTION
 
 This is an extension of L<Dist::Zilla::Plugin::InlineFiles>, providing the
-following files
+following file:
 
   xt/release/pod-spell.t - a standard Test::Spelling test
 
