@@ -2,6 +2,8 @@ Revision history for Perl extension {{$dist->name}}
 
 {{$NEXT}}
 
+    - Added workaround for Test::Spelling's defects on various platforms. ( Kent Fredric )
+
 1.101420  2010-05-22 18:07:04 Europe/Vienna
     - removed weaver.ini since that's handled in Dist::Zilla's [@MARCEL] now
     - list Test::Spelling in dist.ini so we don't use() it anymore
